@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-cli-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "bin",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhunrong/nodejs-cli-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhunrong/nodejs-cli-demo/issues"
+  },
+  "homepage": "https://github.com/zhunrong/nodejs-cli-demo#readme",
+  "dependencies": {
+    "commander": "^7.2.0"
+  },
+  "bin": {
+    "hello": "./bin/hello.js"
+  }
+}
