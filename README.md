@@ -40,13 +40,13 @@ program.parse();
 说明：
 - 文件的扩展名不重要，可以是.js或者其他（也可以没有），建议使用.js方便代码编写
 - 文件首行要添加 ***#!/usr/bin/env node*** ，表明该脚本将尝试使用node执行
-- 代码中用到了commander这个开源库，用来解析命令行指令、参数并执行对应的程序，非常推荐使用
+- 代码中用到了[commander](https://github.com/tj/commander.js)这个开源库，用来解析命令行指令、参数并执行对应的程序，非常推荐使用
 
 ### 三、配置package.json
 
 作为一个npm包，需要配置几个关键字段
 
-```json
+```javascript
 {
   ... // 省略其他常规字段
   
